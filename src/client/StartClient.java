@@ -53,7 +53,7 @@ public class StartClient extends JFrame {
 				try {
 					frame.setVisible(true);
 					frame.setTitle("Klient synchronizacji zegarów");
-					ImageIcon icon = new ImageIcon("res/clock-client.png");
+					ImageIcon icon = new ImageIcon("res/icons/clock-client.png");
 					frame.setIconImage(icon.getImage());
 				} catch (Exception e) {
 					e.printStackTrace();

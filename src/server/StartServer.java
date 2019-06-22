@@ -31,7 +31,6 @@ import javax.swing.SwingConstants;
 import utils.ClockUpdater;
 import utils.DigitsValidator;
 import utils.IpAddressValidator;
-import utils.SynchronizationService;
 import utils.SystemIpAddress;
 
 public class StartServer extends JFrame {
@@ -57,7 +56,7 @@ public class StartServer extends JFrame {
 				try {
 					frame.setVisible(true);
 					frame.setTitle("Serwer synchronizacji zegarów");
-					ImageIcon icon = new ImageIcon("res/clock-server.png");
+					ImageIcon icon = new ImageIcon("res/icons/clock-server.png");
 					frame.setIconImage(icon.getImage());
 				} catch (Exception e) {
 					e.printStackTrace();

@@ -1,4 +1,4 @@
-package utils;
+package server;
 
 import java.rmi.RemoteException;
 import java.text.SimpleDateFormat;
@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import javax.swing.JTextArea;
 
 import common.IClient;
-import server.Server;
+import utils.ClockUpdater;
 
 public class SynchronizationService implements Runnable {
 	private Thread thread;
