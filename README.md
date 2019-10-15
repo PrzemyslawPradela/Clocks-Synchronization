@@ -14,4 +14,4 @@ Project is created with:
 1. Install Java Runtime Environment.
 3. Disable NTP.
 3. Clone this repository.
-4. To run this project, import it to your favourite IDE, build and run with root privileges.`
+4. To run this project, import it to your favourite IDE, build and run with root privileges.
