@@ -8,7 +8,7 @@ The client-server application using Java RMI and Berkeley’s Algorithm for cloc
 	
 ## Technologies
 Project is created with:
-* Java: 11
+* Java version: 11
 	
 ## Setup
 1. Install Java Runtime Environment.
