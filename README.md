@@ -9,9 +9,24 @@ The client-server application using Java RMI and Berkeley’s Algorithm for cloc
 ## Technologies
 Project is created with:
 * Java version: 11
+* Maven version: 3.6.0
 	
 ## Setup
-1. Install Java Runtime Environment.
-3. Disable NTP.
-3. Clone this repository.
-4. To run this project, import it to your favourite IDE, build and run with root privileges.
+1. Install Java Runtime Environment
+2. Install [Maven](https://maven.apache.org/install.html)
+3. Disable NTP
+4. Clone this repository
+6. To run this project, compile it and run it using mvn:
+
+    *Server*
+   ```bash
+   $ cd ../rmi-clocks-synchronization-swing
+   $ sudo mvn install
+   $ sudo mvn exec:java -pl server -Dexec.mainClass=rmi.clocks.synchronization.swing.server.StartServer
+   ```
+    *Client*
+      ```bash
+      $ cd ../rmi-clocks-synchronization-swing
+      $ sudo mvn install
+      $ sudo mvn exec:java -pl client -Dexec.mainClass=rmi.clocks.synchronization.swing.client.StartClient
+      ```
