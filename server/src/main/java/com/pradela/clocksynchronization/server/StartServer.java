@@ -1,9 +1,9 @@
-package rmi.clocks.synchronization.swing.server;
+package com.pradela.clocksynchronization.server;
 
-import rmi.clocks.synchronization.swing.utils.ClockUpdater;
-import rmi.clocks.synchronization.swing.utils.DigitsValidator;
-import rmi.clocks.synchronization.swing.utils.IpAddressValidator;
-import rmi.clocks.synchronization.swing.utils.SystemIpAddress;
+import com.pradela.clocksynchronization.utils.ClockUpdater;
+import com.pradela.clocksynchronization.utils.DigitsValidator;
+import com.pradela.clocksynchronization.utils.IpAddressValidator;
+import com.pradela.clocksynchronization.utils.SystemIpAddress;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package rmi.clocks.synchronization.swing.utils;
+package com.pradela.clocksynchronization.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

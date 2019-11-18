@@ -22,11 +22,11 @@ Project is created with:
    ```bash
    $ cd ../rmi-clocks-synchronization-swing
    $ sudo mvn install
-   $ sudo mvn exec:java -pl server -Dexec.mainClass=rmi.clocks.synchronization.swing.server.StartServer
+   $ sudo mvn exec:java -pl server -Dexec.mainClass=com.pradela.clocksynchronization.server.StartServer
    ```
     *Client*
       ```bash
       $ cd ../rmi-clocks-synchronization-swing
       $ sudo mvn install
-      $ sudo mvn exec:java -pl client -Dexec.mainClass=rmi.clocks.synchronization.swing.client.StartClient
+      $ sudo mvn exec:java -pl client -Dexec.mainClass=com.pradela.clocksynchronization.server.StartClient
       ```

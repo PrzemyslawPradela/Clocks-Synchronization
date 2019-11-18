@@ -1,7 +1,7 @@
-package rmi.clocks.synchronization.swing.client;
+package com.pradela.clocksynchronization.client;
 
-import rmi.clocks.synchronization.swing.common.IClient;
-import rmi.clocks.synchronization.swing.utils.ClockUpdater;
+import com.pradela.clocksynchronization.common.IClient;
+import com.pradela.clocksynchronization.utils.ClockUpdater;
 
 import javax.swing.*;
 import java.rmi.RemoteException;

@@ -1,10 +1,10 @@
-package rmi.clocks.synchronization.swing.client;
+package com.pradela.clocksynchronization.client;
 
-import rmi.clocks.synchronization.swing.common.IServer;
-import rmi.clocks.synchronization.swing.utils.ClockUpdater;
-import rmi.clocks.synchronization.swing.utils.DigitsValidator;
-import rmi.clocks.synchronization.swing.utils.IpAddressValidator;
-import rmi.clocks.synchronization.swing.utils.SystemIpAddress;
+import com.pradela.clocksynchronization.common.IServer;
+import com.pradela.clocksynchronization.utils.ClockUpdater;
+import com.pradela.clocksynchronization.utils.DigitsValidator;
+import com.pradela.clocksynchronization.utils.IpAddressValidator;
+import com.pradela.clocksynchronization.utils.SystemIpAddress;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
