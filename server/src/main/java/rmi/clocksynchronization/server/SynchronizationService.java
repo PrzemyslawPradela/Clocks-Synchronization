@@ -1,14 +1,15 @@
-package com.pradela.clocksynchronization.server;
+package rmi.clocksynchronization.server;
 
-import com.pradela.clocksynchronization.common.IClient;
-import com.pradela.clocksynchronization.utils.ClockUpdater;
-
-import javax.swing.*;
 import java.rmi.RemoteException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import javax.swing.JTextArea;
+
+import rmi.clocksynchronization.common.IClient;
+import rmi.clocksynchronization.utils.ClockUpdater;
 
 class SynchronizationService implements Runnable {
     private final AtomicBoolean running = new AtomicBoolean(true);

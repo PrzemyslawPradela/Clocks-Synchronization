@@ -1,14 +1,15 @@
-package com.pradela.clocksynchronization.client;
+package rmi.clocksynchronization.client;
 
-import com.pradela.clocksynchronization.common.IClient;
-import com.pradela.clocksynchronization.utils.ClockUpdater;
-
-import javax.swing.*;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
+import javax.swing.JTextArea;
+
+import rmi.clocksynchronization.common.IClient;
+import rmi.clocksynchronization.utils.ClockUpdater;
 
 public class Client extends UnicastRemoteObject implements IClient {
     private static final long serialVersionUID = 1L;

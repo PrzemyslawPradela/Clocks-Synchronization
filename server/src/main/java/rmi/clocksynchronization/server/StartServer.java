@@ -1,12 +1,7 @@
-package com.pradela.clocksynchronization.server;
+package rmi.clocksynchronization.server;
 
-import com.pradela.clocksynchronization.utils.ClockUpdater;
-import com.pradela.clocksynchronization.utils.DigitsValidator;
-import com.pradela.clocksynchronization.utils.IpAddressValidator;
-import com.pradela.clocksynchronization.utils.SystemIpAddress;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.EventQueue;
+import java.awt.Font;
 import java.net.SocketException;
 import java.rmi.NoSuchObjectException;
 import java.rmi.RemoteException;
@@ -17,6 +12,25 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
+
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JSeparator;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+
+import rmi.clocksynchronization.utils.ClockUpdater;
+import rmi.clocksynchronization.utils.DigitsValidator;
+import rmi.clocksynchronization.utils.IpAddressValidator;
+import rmi.clocksynchronization.utils.SystemIpAddress;
 
 class StartServer extends JFrame {
     private static final long serialVersionUID = 1L;

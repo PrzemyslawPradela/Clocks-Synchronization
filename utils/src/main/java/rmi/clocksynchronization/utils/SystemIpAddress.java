@@ -1,4 +1,4 @@
-package com.pradela.clocksynchronization.utils;
+package rmi.clocksynchronization.utils;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

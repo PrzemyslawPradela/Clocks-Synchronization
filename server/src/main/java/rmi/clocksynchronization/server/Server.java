@@ -1,12 +1,13 @@
-package com.pradela.clocksynchronization.server;
+package rmi.clocksynchronization.server;
 
-import com.pradela.clocksynchronization.common.IClient;
-import com.pradela.clocksynchronization.common.IServer;
-
-import javax.swing.*;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Vector;
+
+import javax.swing.JTextArea;
+
+import rmi.clocksynchronization.common.IClient;
+import rmi.clocksynchronization.common.IServer;
 
 public class Server extends UnicastRemoteObject implements IServer {
     private static final long serialVersionUID = 1L;
